@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripition" content="This is the description">
+    <meta name="content" content="html,CSS,JavaScript">
+    <link rel="shortcut icon" href="favicon.ion.png" type="image/x-icon">
+    <title>CSS Display Property </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            display:inline-block;
+            padding: 45px;
+            margin: 45px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            text-decoration: wavy;
+            text-decoration-line: underline;
+            text-decoration-color: red;
+        }
+        .box:first-child{
+            /*display: none;*/
+            /*visibility: hidden;*/
+            /*display: inline-flex ;*/
+            justify-content: center ;
+            display: grid;
+        }
+
+    </style>
+</head>
+<body>
+    <div title="Box" class="box">
+        I am a Box 
+    </div>
+    <div class="box"> I am Also A Nice Box 
+    </div>
+    
+    <span>
+        I am Good
+    </span>
+    
+</body>
+</html>
